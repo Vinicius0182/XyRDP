@@ -1,5 +1,5 @@
 {
-  "active": true,
+  "active": false,
   "hostname": "xyrdp-samp-87",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
@@ -61,24 +61,24 @@
     "mode": "tailscale",
     "tailscale": {
       "status": "ok",
-      "ip": "100.69.48.42",
-      "magicdns": "xyrdp-samp-87.tail01cd7c.ts.net.",
-      "hostname": "xyrdp-samp-87",
       "funnel": "tidak aktif",
-      "funnel_addr": "",
-      "note": "Di HP: pasang app Tailscale + login akun yang sama, lalu Host=100.69.48.42 Port=3389 di XyDesk Remote (atau mstsc). Funnel: tidak aktif"
+      "note": "Di HP: pasang app Tailscale + login akun yang sama, lalu Host=100.69.48.42 Port=3389 di XyDesk Remote (atau mstsc). Funnel: tidak aktif",
+      "ip": "",
+      "magicdns": "",
+      "hostname": "",
+      "funnel_addr": ""
     },
     "tunnel": {
       "status": "skip",
       "provider": "",
-      "host": "",
-      "port": 0,
-      "address": "",
       "rdp_local": "",
       "selftest": "",
       "outside": "",
       "note2": "",
-      "note": "Isi Host+Port ini di XyDesk Remote (Koneksi RDP) atau mstsc; user xyadmin"
+      "note": "Isi Host+Port ini di XyDesk Remote (Koneksi RDP) atau mstsc; user xyadmin",
+      "host": "",
+      "port": 0,
+      "address": ""
     }
   },
   "memory": {
@@ -86,5 +86,6 @@
     "available_mb": 13815,
     "measured": "akhir setup"
   },
-  "heartbeat_at": "2026-10-10T22:50:09Z"
+  "heartbeat_at": "2026-10-10T22:50:09Z",
+  "stopped_at": "2026-10-10T23:10:16Z"
 }
