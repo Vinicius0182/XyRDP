@@ -1,6 +1,6 @@
 {
-  "active": false,
-  "hostname": "rdpfree-89",
+  "active": true,
+  "hostname": "rdpfree-90",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
   "os_style": "Windows 10 look",
@@ -8,13 +8,13 @@
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-11T04:22:54Z",
-  "expires_at": "2026-10-11T10:17:54Z",
+  "started_at": "2026-10-11T12:31:47Z",
+  "expires_at": "2026-10-11T18:26:47Z",
   "duration_menit": 355,
-  "run_id": "38111171705",
+  "run_id": "38139271663",
   "run_attempt": "1",
-  "run_number": "89",
-  "run_url": "https://github.com/xykal/XyRDP/actions/runs/38111171705",
+  "run_number": "90",
+  "run_url": "https://github.com/xykal/XyRDP/actions/runs/38139271663",
   "mode": "bersih+win10",
   "win10": {
     "look": "ok",
@@ -42,17 +42,17 @@
     "note": "Host siap dipakai klien XyDesk Remote mode Koneksi RDP (Host+Port tunnel). Kunci WinStations\\RDP-Tcp sengaja TIDAK ditulis supaya listener 3389 tidak mati di runner GitHub."
   },
   "grafis": {
-    "opengl": "4.6 (Core Profile) Mesa 26.2.4 (git-9a0169f2a7) | llvmpipe (LLVM 23.1.2, 256 bits) | Mesa",
-    "loader": "vulkan-1.dll 1.4.363.0 (LunarG)",
     "vulkan": "llvmpipe (LLVM 23.1.2, 256 bits) (PHYSICAL_DEVICE_TYPE_CPU)",
+    "mesa": "26.2.4",
+    "dir": "C:\\XyRDP\\grafis",
+    "loader": "vulkan-1.dll 1.4.363.0 (LunarG)",
     "files": "opengl32.dll,libgallium_wgl.dll,vulkan_lvp.dll,vulkan-1.dll",
     "note": "GPU software (CPU): OpenGL 4.6 (llvmpipe) + Vulkan lavapipe + WARP bawaan. Runner GitHub tanpa GPU fisik; 3D berat tetap lambat.",
-    "debug": "",
-    "mesa": "26.2.4",
-    "mode": "software",
-    "adapters": "Microsoft Hyper-V Video",
     "install": "mesa 26.2.4.0 [Mesa/X.org]",
-    "dir": "C:\\XyRDP\\grafis"
+    "debug": "",
+    "adapters": "Microsoft Hyper-V Video",
+    "mode": "software",
+    "opengl": "4.6 (Core Profile) Mesa 26.2.4 (git-9a0169f2a7) | llvmpipe (LLVM 23.1.2, 256 bits) | Mesa"
   },
   "extras": {
     "lightshot": "skip",
@@ -64,47 +64,44 @@
     "admin": true
   },
   "akses": {
+    "mode": "tailscale",
     "tailscale": {
-      "status": "ok",
+      "ip": "100.64.149.0",
+      "magicdns": "rdpfree-90.tail01cd7c.ts.net.",
       "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
-      "ip": "",
-      "magicdns": "",
-      "hostname": "",
-      "funnel_addr": ""
-    },
-    "mode": "tailscale"
+      "hostname": "rdpfree-90",
+      "status": "ok"
+    }
   },
   "media": {
+    "wallpaper": "xyverse_configured_for_user_logon",
     "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end.",
     "microphone": "rdp_capture_enabled",
-    "wallpaper": "xyverse_configured_for_user_logon",
     "audio_output": "rdp_playback_enabled"
   },
   "games": {
+    "roblox": {
+      "status": "requires_self_hosted",
+      "note": "Persiapan gaming hanya untuk mesin Windows self-hosted khusus milikmu."
+    },
     "minecraft_java": {
-      "note": "Tidak dipilih",
-      "status": "disabled"
+      "status": "disabled",
+      "note": "Tidak dipilih"
     },
     "samp": {
-      "note": "Pemasangan game hanya di mesin self-hosted khusus.",
-      "status": "requires_self_hosted"
-    },
-    "roblox": {
-      "note": "Tidak dipilih",
-      "status": "disabled"
+      "status": "requires_self_hosted",
+      "note": "Pemasangan game hanya di mesin self-hosted khusus."
     },
     "minecraft_bedrock": {
-      "note": "Tidak dipilih",
-      "status": "disabled"
+      "status": "disabled",
+      "note": "Tidak dipilih"
     }
   },
   "game_environment": {
-    "hypervisor_present": true,
-    "play_tested": false,
     "runner": "github",
+    "play_tested": false,
     "windows_server": true,
-    "os": "Microsoft Windows Server 2022 Datacenter"
-  },
-  "heartbeat_at": "2026-10-11T10:11:18.1310247Z",
-  "stopped_at": "2026-10-11T10:15:54Z"
+    "os": "Microsoft Windows Server 2022 Datacenter",
+    "hypervisor_present": true
+  }
 }
