@@ -1,6 +1,6 @@
 {
   "active": false,
-  "hostname": "xyrdp-samp-87",
+  "hostname": "rdpfree-88",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
   "os_style": "Windows 10 look",
@@ -8,12 +8,12 @@
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-10T17:17:43Z",
-  "expires_at": "2026-10-10T23:12:43Z",
+  "started_at": "2026-10-11T00:28:36Z",
+  "expires_at": "2026-10-11T06:23:36Z",
   "duration_menit": 355,
-  "run_id": "38070789841",
-  "run_number": "87",
-  "run_url": "https://github.com/xykal/XyRDP/actions/runs/38070789841",
+  "run_id": "38098293723",
+  "run_number": "88",
+  "run_url": "https://github.com/xykal/XyRDP/actions/runs/38098293723",
   "mode": "bersih+win10",
   "win10": {
     "look": "ok",
@@ -42,50 +42,36 @@
   },
   "grafis": {
     "adapters": "Microsoft Hyper-V Video",
+    "debug": "",
+    "vulkan": "llvmpipe (LLVM 23.1.2, 256 bits) (PHYSICAL_DEVICE_TYPE_CPU)",
+    "mesa": "26.2.4",
+    "loader": "vulkan-1.dll 1.4.363.0 (LunarG)",
+    "note": "GPU software (CPU): OpenGL 4.6 (llvmpipe) + Vulkan lavapipe + WARP bawaan. Runner GitHub tanpa GPU fisik; 3D berat tetap lambat.",
+    "install": "mesa 26.2.4.0 [Mesa/X.org]",
     "mode": "software",
     "dir": "C:\\XyRDP\\grafis",
-    "install": "mesa 26.2.4.0 [Mesa/X.org]",
-    "files": "opengl32.dll,libgallium_wgl.dll,vulkan_lvp.dll,vulkan-1.dll",
-    "debug": "",
-    "note": "GPU software (CPU): OpenGL 4.6 (llvmpipe) + Vulkan lavapipe + WARP bawaan. Runner GitHub tanpa GPU fisik; 3D berat tetap lambat.",
-    "mesa": "26.2.4",
-    "vulkan": "llvmpipe (LLVM 23.1.2, 256 bits) (PHYSICAL_DEVICE_TYPE_CPU)",
-    "loader": "vulkan-1.dll 1.4.363.0 (LunarG)",
-    "opengl": "4.6 (Core Profile) Mesa 26.2.4 (git-9a0169f2a7) | llvmpipe (LLVM 23.1.2, 256 bits) | Mesa"
+    "opengl": "4.6 (Core Profile) Mesa 26.2.4 (git-9a0169f2a7) | llvmpipe (LLVM 23.1.2, 256 bits) | Mesa",
+    "files": "opengl32.dll,libgallium_wgl.dll,vulkan_lvp.dll,vulkan-1.dll"
   },
-  "samp": {
-    "status": "skip",
-    "note": "dilewati sesuai config"
+  "extras": {
+    "lightshot": "skip",
+    "translucent": "ok",
+    "wallpaper": "ok",
+    "wallpaper_file": "wallpaper.jpg",
+    "vscode": "skip",
+    "notepadpp": "skip",
+    "admin": true
   },
   "akses": {
-    "mode": "tailscale",
     "tailscale": {
-      "status": "ok",
-      "funnel": "tidak aktif",
-      "note": "Di HP: pasang app Tailscale + login akun yang sama, lalu Host=100.69.48.42 Port=3389 di XyDesk Remote (atau mstsc). Funnel: tidak aktif",
+      "status": "failed",
+      "note": "Installer Tailscale gagal, exit 1603",
       "ip": "",
       "magicdns": "",
       "hostname": "",
       "funnel_addr": ""
     },
-    "tunnel": {
-      "status": "skip",
-      "provider": "",
-      "rdp_local": "",
-      "selftest": "",
-      "outside": "",
-      "note2": "",
-      "note": "Isi Host+Port ini di XyDesk Remote (Koneksi RDP) atau mstsc; user xyadmin",
-      "host": "",
-      "port": 0,
-      "address": ""
-    }
+    "mode": "tailscale"
   },
-  "memory": {
-    "total_mb": 16379,
-    "available_mb": 13815,
-    "measured": "akhir setup"
-  },
-  "heartbeat_at": "2026-10-10T22:50:09Z",
-  "stopped_at": "2026-10-10T23:10:16Z"
+  "stopped_at": "2026-10-11T00:38:29Z"
 }
