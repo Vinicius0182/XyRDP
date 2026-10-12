@@ -113,5 +113,6 @@
       "game_dir": null,
       "status": "dependencies_ready"
     }
-  }
+  },
+  "heartbeat_at": "2026-10-12T01:05:53.5779308Z"
 }
