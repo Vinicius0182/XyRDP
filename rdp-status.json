@@ -1,5 +1,5 @@
 {
-  "active": true,
+  "active": false,
   "hostname": "rdpaja-94",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
@@ -43,8 +43,8 @@
     "portmap": {
       "note": "OpenVPN dan listener RDP siap. Endpoint publik; koneksi dari HP masih perlu diuji.",
       "status": "ok",
-      "host": "rdp.projectkal.my.id",
-      "port": 41858
+      "host": "",
+      "port": 0
     }
   },
   "media": {
@@ -145,5 +145,6 @@
     "runner": "windows-2022",
     "play_tested": false
   },
-  "heartbeat_at": "2026-10-12T16:26:57.6237615Z"
+  "heartbeat_at": "2026-10-12T16:26:57.6237615Z",
+  "stopped_at": "2026-10-12T16:30:43Z"
 }
