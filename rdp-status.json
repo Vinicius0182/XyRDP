@@ -1,25 +1,25 @@
 {
-  "active": false,
-  "hostname": "rdpaja-95",
+  "active": true,
+  "hostname": "rdpaja-96",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
   "os_style": "Native Windows",
   "hardware": {
+    "disk_free_gb": 79.5,
     "ram_gb": 16.0,
-    "cpu_threads": 4,
-    "disk_free_gb": 82.4
+    "cpu_threads": 4
   },
   "rdp_port": 3389,
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-12T16:33:52Z",
-  "expires_at": "2026-10-12T22:28:52Z",
+  "started_at": "2026-10-13T04:07:14Z",
+  "expires_at": "2026-10-13T10:02:14Z",
   "duration_menit": 355,
-  "run_id": "38278243224",
+  "run_id": "38344899844",
   "run_attempt": "1",
-  "run_number": "95",
-  "run_url": "https://github.com/xykal/XyRDP/actions/runs/38278243224",
+  "run_number": "96",
+  "run_url": "https://github.com/xykal/XyRDP/actions/runs/38344899844",
   "mode": "bersih+win10",
   "xydesk": {
     "host": "ok",
@@ -41,112 +41,17 @@
   "akses": {
     "mode": "tailscale",
     "tailscale": {
-      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
+      "magicdns": "rdpaja-96.tail01cd7c.ts.net.",
+      "ip": "100.99.104.45",
       "status": "ok",
-      "ip": "",
-      "magicdns": "",
-      "hostname": "",
-      "funnel_addr": ""
+      "hostname": "rdpaja-96",
+      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL."
     }
   },
   "media": {
     "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end.",
+    "wallpaper": "xyverse_configured_for_user_logon",
     "audio_output": "rdp_playback_enabled",
-    "microphone": "rdp_capture_enabled",
-    "wallpaper": "xyverse_configured_for_user_logon"
-  },
-  "storage": {
-    "boost": "ok",
-    "before_gb": 82.21,
-    "after_gb": 107.17,
-    "gained_gb": 24.96,
-    "removed_targets": 22,
-    "drives": [
-      {
-        "letter": "C",
-        "free_gb": 107.17,
-        "size_gb": 255.45,
-        "used_gb": 148.28
-      },
-      {
-        "letter": "D",
-        "free_gb": 147.02,
-        "size_gb": 150.0,
-        "used_gb": 2.98
-      }
-    ],
-    "game_dir": "D:\\Games (disarankan untuk GTA)",
-    "note": "Cleanup selesai. gained_gb adalah perubahan ruang aktual, bukan kapasitas yang dijanjikan. Target terkunci bisa tersisa."
-  },
-  "win10": {
-    "look": "ok",
-    "badge": "ok",
-    "wallpaper": "ok",
-    "search": "ok",
-    "os": "Microsoft Windows Server 2022 Datacenter",
-    "note": "Tampilan Windows 10 (UI Windows Server 2022 = kernel/UI Windows 10 21H2)"
-  },
-  "grafis": {
-    "loader": "vulkan-1.dll 1.4.363.0 (LunarG)",
-    "files": "opengl32.dll,libgallium_wgl.dll,vulkan_lvp.dll,vulkan-1.dll",
-    "mesa": "26.2.4",
-    "mode": "software",
-    "install": "mesa 26.2.4.0 [Mesa/X.org]",
-    "adapters": "Microsoft Hyper-V Video",
-    "debug": "",
-    "dir": "C:\\XyRDP\\grafis",
-    "vulkan": "llvmpipe (LLVM 23.1.2, 256 bits) (PHYSICAL_DEVICE_TYPE_CPU)",
-    "opengl": "4.6 (Core Profile) Mesa 26.2.4 (git-9a0169f2a7) | llvmpipe (LLVM 23.1.2, 256 bits) | Mesa",
-    "note": "GPU software (CPU): OpenGL 4.6 (llvmpipe) + Vulkan lavapipe + WARP bawaan. Runner GitHub tanpa GPU fisik; 3D berat tetap lambat."
-  },
-  "extras": {
-    "lightshot": "skip",
-    "translucent": "ok",
-    "wallpaper": "ok",
-    "wallpaper_file": "wallpaper.jpg",
-    "vscode": "skip",
-    "notepadpp": "skip",
-    "admin": true
-  },
-  "samp": {
-    "samp_installed": false,
-    "netfx3": "Enabled",
-    "vcredist": "verified_x86_x64_and_2013_x86",
-    "directplay": "Enabled",
-    "directx": "verified_x86_x64",
-    "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
-    "play_tested": false,
-    "status": "dependencies_ready",
-    "gta_installed": false
-  },
-  "game_environment": {
-    "os": "Microsoft Windows Server 2022 Datacenter",
-    "play_tested": false,
-    "hypervisor_present": true,
-    "runner": "windows-2022",
-    "windows_server": true
-  },
-  "games": {
-    "minecraft_bedrock": {
-      "note": "Tidak dipilih",
-      "status": "disabled"
-    },
-    "roblox": {
-      "note": "Tidak dipilih",
-      "status": "disabled"
-    },
-    "samp": {
-      "samp_installed": false,
-      "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
-      "status": "dependencies_ready",
-      "game_dir": null,
-      "gta_installed": false
-    },
-    "minecraft_java": {
-      "note": "Tidak dipilih",
-      "status": "disabled"
-    }
-  },
-  "heartbeat_at": "2026-10-12T22:24:16.566842Z",
-  "stopped_at": "2026-10-12T22:26:52Z"
+    "microphone": "rdp_capture_enabled"
+  }
 }
