@@ -1,25 +1,25 @@
 {
-  "active": false,
-  "hostname": "rdpfree-97",
+  "active": true,
+  "hostname": "rdpfree-98",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
   "os_style": "Native Windows",
   "hardware": {
+    "disk_free_gb": 82.1,
     "cpu_threads": 4,
-    "disk_free_gb": 82.2,
     "ram_gb": 16.0
   },
   "rdp_port": 3389,
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-13T16:54:28Z",
-  "expires_at": "2026-10-13T22:49:28Z",
+  "started_at": "2026-10-14T23:34:56Z",
+  "expires_at": "2026-10-15T05:29:56Z",
   "duration_menit": 355,
-  "run_id": "38434280881",
+  "run_id": "38654933361",
   "run_attempt": "1",
-  "run_number": "97",
-  "run_url": "https://github.com/xykal/XyRDP/actions/runs/38434280881",
+  "run_number": "98",
+  "run_url": "https://github.com/xykal/XyRDP/actions/runs/38654933361",
   "mode": "bersih+win10",
   "xydesk": {
     "host": "ok",
@@ -39,115 +39,19 @@
     "note": "Host siap dipakai klien XyDesk Remote mode Koneksi RDP (Host+Port tunnel). Kunci WinStations\\RDP-Tcp sengaja TIDAK ditulis supaya listener 3389 tidak mati di runner GitHub."
   },
   "akses": {
-    "mode": "tailscale",
     "tailscale": {
-      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
       "status": "ok",
-      "ip": "",
-      "magicdns": "",
-      "hostname": "",
-      "funnel_addr": ""
-    }
+      "ip": "100.127.236.14",
+      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
+      "hostname": "rdpfree-98",
+      "magicdns": "rdpfree-98.tail01cd7c.ts.net."
+    },
+    "mode": "tailscale"
   },
   "media": {
     "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end.",
-    "audio_output": "rdp_playback_enabled",
     "wallpaper": "xyverse_configured_for_user_logon",
-    "microphone": "rdp_capture_enabled"
-  },
-  "storage": {
-    "boost": "ok",
-    "before_gb": 82.01,
-    "after_gb": 107.21,
-    "gained_gb": 25.2,
-    "removed_targets": 22,
-    "drives": [
-      {
-        "size_gb": 255.45,
-        "used_gb": 148.24,
-        "letter": "C",
-        "free_gb": 107.21
-      },
-      {
-        "size_gb": 150.0,
-        "used_gb": 2.99,
-        "letter": "D",
-        "free_gb": 147.01
-      }
-    ],
-    "game_dir": "D:\\Games (disarankan untuk GTA)",
-    "note": "Cleanup selesai. gained_gb adalah perubahan ruang aktual, bukan kapasitas yang dijanjikan. Target terkunci bisa tersisa."
-  },
-  "win10": {
-    "look": "ok",
-    "badge": "ok",
-    "wallpaper": "ok",
-    "search": "ok",
-    "os": "Microsoft Windows Server 2022 Datacenter",
-    "note": "Tampilan Windows 10 (UI Windows Server 2022 = kernel/UI Windows 10 21H2)"
-  },
-  "grafis": {
-    "adapters": "Microsoft Hyper-V Video",
-    "mesa": "26.2.4",
-    "mode": "toolkit_only",
-    "note": "Optional isolated CPU renderer files; not activated or benchmarked."
-  },
-  "extras": {
-    "lightshot": "ok",
-    "translucent": "disabled",
-    "wallpaper": "ok",
-    "wallpaper_file": "wallpaper.jpg",
-    "vscode": "skip",
-    "notepadpp": "skip",
-    "admin": true
-  },
-  "samp": {
-    "samp_installed": false,
-    "directx": "verified_x86_x64",
-    "directplay": "Enabled",
-    "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
-    "status": "dependencies_ready",
-    "netfx3": "Enabled",
-    "gta_installed": false,
-    "vcredist": "verified_x86_x64_and_2013_x86",
-    "play_tested": false
-  },
-  "games": {
-    "minecraft_java": {
-      "status": "disabled",
-      "note": "Tidak dipilih"
-    },
-    "samp": {
-      "gta_installed": false,
-      "status": "dependencies_ready",
-      "samp_installed": false,
-      "game_dir": null,
-      "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji."
-    },
-    "minecraft_bedrock": {
-      "status": "disabled",
-      "note": "Tidak dipilih"
-    },
-    "roblox": {
-      "status": "disabled",
-      "note": "Tidak dipilih"
-    }
-  },
-  "game_environment": {
-    "play_tested": false,
-    "windows_server": true,
-    "os": "Microsoft Windows Server 2022 Datacenter",
-    "runner": "windows-2022",
-    "hypervisor_present": true
-  },
-  "host_tools": {
-    "winrar": "verified 7.23.0 (vendor trial; license not included)",
-    "vcredist": "verified_current_v14_x86_x64",
-    "xampp": "verified_files_php_apache_config_mariadb_version; services not started",
-    "firewall7777": "verified_TCP_UDP_inbound_rules; not_public_forwarding",
-    "errors": [],
-    "public_port": false
-  },
-  "heartbeat_at": "2026-10-13T22:46:52.3625715Z",
-  "stopped_at": "2026-10-13T22:47:31Z"
+    "microphone": "rdp_capture_enabled",
+    "audio_output": "rdp_playback_enabled"
+  }
 }
