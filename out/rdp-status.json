@@ -1,0 +1,42 @@
+{
+  "active": true,
+  "hostname": "rdpfree-104",
+  "os": "Microsoft Windows Server 2022 Datacenter",
+  "os_build": "10.0.20348",
+  "os_style": "Native Windows",
+  "hardware": {
+    "ram_gb": 16.0,
+    "cpu_threads": 4,
+    "disk_free_gb": 80.1
+  },
+  "rdp_port": 3389,
+  "rdp_user": "xyadmin",
+  "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
+  "rdp_denyts": true,
+  "started_at": "2026-10-17T09:21:54Z",
+  "expires_at": "2026-10-17T15:03:54Z",
+  "duration_menit": 342,
+  "run_id": "39020805782",
+  "run_attempt": "1",
+  "run_number": "104",
+  "run_url": "https://github.com/xykal/XyRDP/actions/runs/39020805782",
+  "mode": "bersih+win10",
+  "akses": {
+    "mode": "tailscale",
+    "tailscale": {
+      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
+      "ip": "100.83.90.63",
+      "magicdns": "rdpfree-104.tail01cd7c.ts.net.",
+      "hostname": "rdpfree-104",
+      "status": "ok"
+    },
+    "tunnel": {
+      "host": "100.83.90.63",
+      "outside": "tailscale",
+      "selftest": "ok",
+      "address": "100.83.90.63:3389",
+      "port": 3389,
+      "status": "ok"
+    }
+  }
+}
