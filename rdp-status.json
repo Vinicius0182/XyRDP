@@ -1,42 +1,42 @@
 {
   "active": true,
-  "hostname": "rdpfree-6",
+  "hostname": "rdpfree-7",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
   "os_style": "Native Windows",
   "hardware": {
-    "ram_gb": 16.0,
     "cpu_threads": 4,
-    "disk_free_gb": 82.9
+    "disk_free_gb": 82.7,
+    "ram_gb": 16.0
   },
   "rdp_port": 3389,
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-17T16:09:20Z",
-  "expires_at": "2026-10-17T21:51:20Z",
+  "started_at": "2026-10-17T16:11:50Z",
+  "expires_at": "2026-10-17T21:53:50Z",
   "duration_menit": 342,
-  "run_id": "39048144092",
+  "run_id": "39048326134",
   "run_attempt": "1",
-  "run_number": "6",
-  "run_url": "https://github.com/Vinicius0182/XyRDP/actions/runs/39048144092",
+  "run_number": "7",
+  "run_url": "https://github.com/Vinicius0182/XyRDP/actions/runs/39048326134",
   "mode": "bersih+win10",
   "akses": {
     "mode": "tailscale",
-    "tunnel": {
-      "selftest": "ok",
-      "address": "100.73.31.25:3389",
-      "host": "100.73.31.25",
-      "status": "ok",
-      "port": 3389,
-      "outside": "tailscale"
-    },
     "tailscale": {
+      "hostname": "rdpfree-7",
+      "magicdns": "rdpfree-7.tailfb214f.ts.net.",
       "status": "ok",
       "ip": "100.73.31.25",
-      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
-      "hostname": "rdpfree-6",
-      "magicdns": "rdpfree-6.tailfb214f.ts.net."
+      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL."
+    },
+    "tunnel": {
+      "status": "ok",
+      "port": 3389,
+      "selftest": "ok",
+      "outside": "tailscale",
+      "host": "100.73.31.25",
+      "address": "100.73.31.25:3389"
     }
   }
 }
